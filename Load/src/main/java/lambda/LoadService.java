@@ -18,11 +18,6 @@ import java.util.HashMap;
 import java.util.Properties;
 import java.util.Scanner;
 
-/**
- * uwt.lambda_test::handleRequest
- *
- * @author Jyoti Shankar
- */
 public class LoadService implements RequestHandler<Request, HashMap<String, Object>> {
 
     public HashMap<String, Object> handleRequest(Request request, Context context) {
